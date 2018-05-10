@@ -4,7 +4,7 @@
 #
 Name     : R-RandomFields
 Version  : 3.1.50
-Release  : 7
+Release  : 8
 URL      : https://cran.r-project.org/src/contrib/RandomFields_3.1.50.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/RandomFields_3.1.50.tar.gz
 Summary  : Simulation and Analysis of Random Fields
