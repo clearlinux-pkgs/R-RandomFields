@@ -4,7 +4,7 @@
 #
 Name     : R-RandomFields
 Version  : 3.3.6
-Release  : 18
+Release  : 19
 URL      : https://cran.r-project.org/src/contrib/RandomFields_3.3.6.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/RandomFields_3.3.6.tar.gz
 Summary  : Simulation and Analysis of Random Fields
