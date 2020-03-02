@@ -4,7 +4,7 @@
 #
 Name     : R-RandomFields
 Version  : 3.3.8
-Release  : 28
+Release  : 29
 URL      : https://cran.r-project.org/src/contrib/RandomFields_3.3.8.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/RandomFields_3.3.8.tar.gz
 Summary  : Simulation and Analysis of Random Fields
@@ -12,9 +12,7 @@ Group    : Development/Tools
 License  : GPL-3.0
 Requires: R-RandomFields-lib = %{version}-%{release}
 Requires: R-RandomFieldsUtils
-Requires: R-raster
 Requires: R-sp
-Requires: R-spam
 BuildRequires : R-RandomFieldsUtils
 BuildRequires : R-raster
 BuildRequires : R-sp
@@ -40,10 +38,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1581053109
+export SOURCE_DATE_EPOCH=1583168792
 
 %install
-export SOURCE_DATE_EPOCH=1581053109
+export SOURCE_DATE_EPOCH=1583168792
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
