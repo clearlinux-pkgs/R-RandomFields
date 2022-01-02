@@ -4,7 +4,7 @@
 #
 Name     : R-RandomFields
 Version  : 3.3.13
-Release  : 45
+Release  : 46
 URL      : https://cran.r-project.org/src/contrib/RandomFields_3.3.13.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/RandomFields_3.3.13.tar.gz
 Summary  : Simulation and Analysis of Random Fields
@@ -37,10 +37,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1635866960
+export SOURCE_DATE_EPOCH=1641086460
 
 %install
-export SOURCE_DATE_EPOCH=1635866960
+export SOURCE_DATE_EPOCH=1641086460
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
